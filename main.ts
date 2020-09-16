@@ -149,14 +149,77 @@ this is a multi-line comment
 //     i++;
 // }
 
-var num:number = 0;
-var count:number = 0;
+// var num:number = 0;
+// var count:number = 0;
 
-for(num = 0; num <= 20; num++){
-    if(num%2 == 0){
-        continue;
-    }
-    count++;
+// for(num = 0; num <= 20; num++){
+//     if(num%2 == 0){
+//         continue;
+//     }
+//     count++;
+
+// }
+// console.log("The count of odd values between 0 and 20 is: "+count);
+
+
+
+
+// function displayDetails(id:number, name:string, mail_id?:string){
+//     console.log("ID: ", id);
+//     console.log("Name: ", name);
+
+//     if(mail_id != undefined) {
+//         console.log("Email ID: ", mail_id);
+//     }
+// }
+
+// displayDetails(123, "Kawsar");
+// displayDetails(122, "Hossain", "abc@xyz.com")
+
+
+
+// function addNumbers(...nums:number[]) {  
+//     var i;   
+//     var sum:number = 0; 
     
-}
-console.log("The count of odd values between 0 and 20 is: "+count);
+//     for(i = 0;i<nums.length;i++) { 
+//        sum = sum + nums[i]; 
+//     } 
+//     console.log("sum of the numbers",sum) 
+//  } 
+//  addNumbers(1,2,3) 
+//  addNumbers(10,10,10,10,10)
+
+// var myFunction = new Function("a", "b", "return a * b"); 
+// var x = myFunction(4, 3); 
+// console.log(x);
+
+// function factorial(number) {
+//     if (number <= 0) {         // termination case
+//        return 1; 
+//     } else {     
+//        return (number * factorial(number - 1));     // function invokes itself
+//     } 
+//  }; 
+//  console.log(factorial(6)); 
+
+
+//  var foo = (x:number)=> {    
+//     x = 10 + x 
+//     console.log(x)  
+//  } 
+//  foo(100)
+
+
+
+// function disp(s1:string):void; 
+// function disp(n1:number,s1:string):void; 
+
+// function disp(x:any,y?:any):void { 
+//    console.log(x); 
+//    console.log(y); 
+// } 
+// disp("abc") 
+// disp(1,"xyz");
+
+
