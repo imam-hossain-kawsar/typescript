@@ -20,6 +20,31 @@ this is a multi-line comment
 // console.log("second score: "+score2);
 // console.log("sum of the scores: "+sum);
 //type assertion
-var str = '1';
-var str2 = str;
-console.log(typeof (str2));
+// var str = '1';
+// var str2:number =  <any> str;
+// console.log(typeof(str2))
+// var num = 2;
+// console.log("Value of num "+num);
+// num = "12";
+// console.log(num);
+// var global_num = 12;
+// class Numbers{
+//     num_val = 13;
+//     static sval = 10;
+//     storeNum():void{
+//         var local_num = 14;
+//     }
+// }
+// console.log("Global num: "+global_num);
+// console.log(Numbers.sval);
+// var obj = new Numbers();
+// console.log(obj.num_val);
+var x = 4;
+var y = -x;
+console.log("value of x: ", x);
+console.log("Value of y: ", y);
+var msg = "Hello" + " World";
+console.log(msg);
+var num = -2;
+var result = num > 0 ? "Positive" : "non-positive";
+console.log(result);

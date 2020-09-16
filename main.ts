@@ -50,4 +50,19 @@ this is a multi-line comment
 // var obj = new Numbers();
 // console.log(obj.num_val);
 
+var x:number = 4;
+var y = -x;
+
+console.log("value of x: ",x);
+console.log("Value of y: ",y);
+
+var msg:string = "Hello" + " World";
+console.log(msg);
+
+var num:number = -2;
+var result = num>0?"Positive": "non-positive";
+console.log(result)
+
+
+
 
