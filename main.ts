@@ -223,3 +223,16 @@ this is a multi-line comment
 // disp(1,"xyz");
 
 
+
+// console.log("TypeScript Number Properties: "); 
+// console.log("Maximum value that a number variable can hold: " + Number.MAX_VALUE); 
+// console.log("The least value that a number variable can hold: " + Number.MIN_VALUE); 
+// console.log("Value of Negative Infinity: " + Number.NEGATIVE_INFINITY); 
+// console.log("Value of Negative Infinity:" + Number.POSITIVE_INFINITY);
+
+// var names:string[] = new Array("Mary","Tom","Jack","Jill") 
+
+// for(var i = 0;i<names.length;i++) { 
+//    console.log(names[i]) 
+// }
+
