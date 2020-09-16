@@ -39,12 +39,49 @@ this is a multi-line comment
 // console.log(Numbers.sval);
 // var obj = new Numbers();
 // console.log(obj.num_val);
-var x = 4;
-var y = -x;
-console.log("value of x: ", x);
-console.log("Value of y: ", y);
-var msg = "Hello" + " World";
-console.log(msg);
-var num = -2;
-var result = num > 0 ? "Positive" : "non-positive";
-console.log(result);
+// var x:number = 4;
+// var y = -x;
+// console.log("value of x: ",x);
+// console.log("Value of y: ",y);
+// var msg:string = "Hello" + " World";
+// console.log(msg);
+// var num:number = -2;
+// var result = num>0?"Positive": "non-positive";
+// console.log(result)
+// var num =3;
+// if(num>0){
+//     console.log("Number is positive");
+// }
+// var num:number = 12;
+// if(num%2 == 0){
+//     console.log("Even");
+// }else{
+//     console.log("Odd");
+// }
+// var num:number = 2;
+// if(num > 0){
+//     console.log(num + " is positive");
+// }else if(num < 0){
+//     console.log(num + " is negative");
+// }else{
+//     console.log(num + " is neither positive nor negative");
+// }
+var grade = "A";
+switch (grade) {
+    case "A": {
+        console.log("Excellent");
+        break;
+    }
+    case "B": {
+        console.log("Good");
+        break;
+    }
+    case "C": {
+        console.log("Fair");
+        break;
+    }
+    default: {
+        console.log("Invalid Choice");
+        break;
+    }
+}
