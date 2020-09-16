@@ -66,22 +66,63 @@ this is a multi-line comment
 // }else{
 //     console.log(num + " is neither positive nor negative");
 // }
-var grade = "A";
-switch (grade) {
-    case "A": {
-        console.log("Excellent");
-        break;
+// var grade:string = "A";
+// switch(grade){
+//     case "A":{
+//         console.log("Excellent");
+//         break;
+//     }
+//     case "B":{
+//         console.log("Good");
+//         break;
+//     }
+//     case "C":{
+//         console.log("Fair");
+//         break;
+//     }
+//     default: {
+//         console.log("Invalid Choice");
+//         break;
+//     }
+// }
+// var num = 5;
+// var i:number;
+// var factorial = 1;
+// for(i = num; i>=1; i--){
+//     factorial *= i;
+// }
+// console.log(factorial);
+// var j:any;
+// var n:any = "a b c"
+// for(j in n){
+//     console.log(n[j]);
+// }
+// var num:number = 5;
+// var factorial: number = 1;
+// while(num >= 1){
+//     factorial = factorial * num;
+//     num--;
+// }
+// console.log("The factorial is "+factorial);
+// var n:number = 10;
+// do{
+//     console.log(n);
+//     n--;
+// }while(n >= 0);
+// var i:number = 1;
+// while(i<=10){
+//     if(i%5 == 0) {
+//         console.log("The first multiple of 5  between 1 and 10 is: "+i);
+//         break;
+//     }
+//     i++;
+// }
+var num = 0;
+var count = 0;
+for (num = 0; num <= 20; num++) {
+    if (num % 2 == 0) {
+        continue;
     }
-    case "B": {
-        console.log("Good");
-        break;
-    }
-    case "C": {
-        console.log("Fair");
-        break;
-    }
-    default: {
-        console.log("Invalid Choice");
-        break;
-    }
+    count++;
 }
+console.log("The count of odd values between 0 and 20 is: " + count);
